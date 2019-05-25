@@ -22,6 +22,10 @@ class BoardMember {
   }
   
   sayHi() {
-    return `Hi, my ame is ${this.name}
+    return `Hi, my ame is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
   }
+}
+
+class Ceo extend BoardMember {
+  
 }
